@@ -63,3 +63,20 @@
     height: 75px;
   }
 }
+
+@media only screen and (max-width: 420px) {
+  .options {
+    width: 68%;
+    margin-right: 15px;
+    margin-bottom: -20px;
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+  .logo-container {
+    width: 70px;
+    padding: 0px;
+    margin-left: 15px;
+    margin-top: 7px;
+  }
+}
