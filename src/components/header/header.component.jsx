@@ -19,7 +19,7 @@ const Header = () => (
         REGISTER
       </Link>
       <Link className="option" to="/contact">
-        CONTACT
+        CONTACT US
       </Link>
     </div>
   </div>

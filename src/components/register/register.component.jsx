@@ -17,17 +17,17 @@ function Register() {
 
   return (
     <div className="register">
-      <Typography gutterBottom variant="h3" align="center">
-        {/* React-App */}
-      </Typography>
+      <Typography gutterBottom variant="h3" align="center"></Typography>
       <Grid>
         <Card
-          style={{
-            maxWidth: 1235,
-            padding: '20px 5px',
-            margin: '0 auto',
-            marginBottom: '100',
-          }}
+          //   className="register-form"
+          //   style={{
+          //     maxWidth: 1235,
+          //     padding: '20px 5px',
+          //     margin: '0 auto',
+          //     marginBottom: '100',
+          //   }}
+          style={{ width: 'calc(97% + 8px)', paddingLeft: '25' }}
         >
           <CardContent>
             <Typography gutterBottom variant="h5">

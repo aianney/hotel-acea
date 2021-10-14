@@ -1,7 +1,7 @@
 .register {
   margin-bottom: 50px;
   margin-top: 50px;
-  /* margin-left: -15px; */
+  margin-left: 25px;
 }
 
 .register h5 {
@@ -19,3 +19,32 @@
 .MuiPaper-elevation1 {
   box-shadow: none !important;
 }
+.MuiGrid-spacing-xs-1 {
+  width: calc(95% + 8px);
+  margin: -4px;
+}
+
+@media only screen and (max-width: 1520px) {
+  .div.MuiCardPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
+    max-width: 1455px;
+    padding: 20px 5px;
+    margin: 0px auto;
+  }
+
+  /* .element.style {
+    max-width: 1455px;
+    padding: 20px 5px;
+    margin: 0px auto;
+  }  */
+  /* 
+  .register-form {
+    max-width: 1455px;
+  } */
+}
+
+/* .register-form {
+  max-width: 120px;
+  padding: 20px 5px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+} */
