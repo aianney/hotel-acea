@@ -239,3 +239,35 @@
     margin-bottom: 14px;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .search {
+    width: 98%;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: -5px;
+  }
+  .search_item:first-child {
+    width: 98%;
+    margin: 2em;
+  }
+  .search_item:nth-child(2) {
+    width: 98%;
+    margin-left: 30px;
+  }
+  .search_item:nth-child(3) {
+    width: 98%;
+    margin: 2em;
+  }
+  .search_item:nth-child(4) {
+    width: 98%;
+    margin-left: 30px;
+  }
+  .search_item div {
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+}
