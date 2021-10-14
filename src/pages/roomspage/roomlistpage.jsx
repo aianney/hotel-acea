@@ -4,7 +4,8 @@ import SearchPanel from '../../components/searchpanel/searchpanel.component'
 import Stepper from '../../components/stepper/steper.component'
 import './roomslistpage.styles.css'
 
-const RoomsPage = () => {
+const RoomsPage = (props) => {
+  console.log(props)
   return (
     <div className="roomspage">
       <h1>Stay period</h1>
