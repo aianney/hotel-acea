@@ -1,0 +1,136 @@
+.searchResult {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.searchResult:hover {
+  opacity: 0.8;
+}
+
+.searchResult > img {
+  height: 225px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.searchResult__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.searchResult__heart {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+.searchResult__infoTop {
+  width: 40vw;
+}
+.searchResult__infoTop > h1 {
+  color: #f9c82e;
+}
+
+.searchResult__infoTop > h3 {
+  font-weight: 300;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.searchResult__infoTop > p {
+  margin-top: 17px;
+  font-size: 20px;
+  color: gray;
+  font-weight: 900;
+}
+
+.searchResult__infoBottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -105px;
+  margin-bottom: 24px;
+  margin-left: 580px;
+  font-size: 26px;
+}
+
+.searchResult__star {
+  color: red;
+  margin-top: -16px;
+}
+
+.searchResult__stars {
+  display: flex;
+  align-items: center;
+}
+
+.searchResults__price > p {
+  text-align: right;
+}
+
+.searchResults__price {
+  position: absolute;
+  right: 30px;
+  bottom: -3px;
+}
+
+@media only screen and (max-width: 575px) {
+  .searchResult {
+    display: block;
+  }
+
+  .searchResult__infoBottom {
+    display: block;
+    justify-content: space-between;
+    margin-top: -7px;
+    margin-bottom: 24px;
+    margin-left: -50px;
+  }
+
+  .searchResult__infoTop > h3 {
+    display: none;
+  }
+
+  .searchResult__infoTop > p {
+    display: none;
+  }
+  .searchResult__infoTop > h1 {
+    width: 60vw;
+    margin-top: 10px;
+    margin-left: -35px;
+  }
+
+  .searchResult__heart {
+    position: absolute;
+    top: 288px;
+    right: 15px;
+  }
+
+  .searchResults__price {
+    position: absolute;
+    right: 189px;
+    bottom: -4px;
+  }
+
+  .searchResult__stars {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .searchResult > img {
+    height: 250px;
+    width: 383px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: -37px;
+    width: 390px;
+  }
+}

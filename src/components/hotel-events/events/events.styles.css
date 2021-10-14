@@ -1,0 +1,16 @@
+.event__section {
+  display: flex;
+  padding: 30px;
+  margin-top: -55px;
+}
+
+.home-events {
+  margin-top: 95px;
+}
+
+@media only screen and (max-width: 575px) {
+  .event__section {
+    display: block;
+    padding: 15px;
+  }
+}

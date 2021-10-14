@@ -1,0 +1,24 @@
+.root-container {
+  width: 100%;
+  margin: auto;
+  padding: 0px 0px 0px 14px;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -1%;
+}
+.stepper-registration {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+  .stepper-registration {
+    margin-top: -245px;
+  }
+
+  .register {
+    margin-bottom: 50px;
+    margin-top: 17px;
+  }
+}

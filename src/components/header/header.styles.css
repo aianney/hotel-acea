@@ -1,0 +1,63 @@
+.header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  margin: 0 auto;
+  top: 0;
+  background-color: white;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0 4px 2px -2px grey;
+}
+
+.logo-container {
+  height: 100%;
+  width: 80px;
+  padding: 0px;
+  margin-left: 38px;
+  margin-top: 7px;
+}
+.options {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.option {
+  padding: 10px 15px;
+  color: #033148;
+}
+
+.option:hover {
+  color: #f9c82e;
+}
+
+@media only screen and (max-width: 575px) {
+  .options {
+    width: 68%;
+    margin-right: 20px;
+    margin-bottom: -20px;
+  }
+
+  .option {
+    padding: 7px 6px;
+    margin-right: 0px;
+  }
+
+  .logo-container {
+    width: 70px;
+    padding: 0px;
+    margin-left: 15px;
+    margin-top: 7px;
+  }
+
+  .header {
+    height: 75px;
+  }
+}

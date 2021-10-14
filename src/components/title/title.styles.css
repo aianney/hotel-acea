@@ -1,0 +1,26 @@
+.section-title {
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: -50px;
+}
+.section-title h4 {
+  font-size: 2rem;
+  letter-spacing: black;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.section-title h1 {
+  font-size: 2rem;
+
+  letter-spacing: black;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.section-title div {
+  width: 5rem;
+  height: 5px;
+  margin: 0 auto;
+  background: #f9c82e;
+}

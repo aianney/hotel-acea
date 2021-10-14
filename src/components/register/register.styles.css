@@ -1,0 +1,21 @@
+.register {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  /* margin-left: -15px; */
+}
+
+.register h5 {
+  color: #f9c82e;
+}
+
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  color: white;
+}
+
+.MuiPaper-elevation1 {
+  box-shadow: none !important;
+}
