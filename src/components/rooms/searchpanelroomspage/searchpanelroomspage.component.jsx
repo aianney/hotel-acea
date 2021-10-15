@@ -2,9 +2,9 @@ import React from 'react'
 import './searchpanelroomspage.styles.css'
 
 const SearchPanelRooms = () => {
-  const { checkInDate, checkOutDate, adultCount, childCount } = React.useState(
-    '',
-  )
+  //   const { checkInDate, checkOutDate, adultCount, childCount } = React.useState(
+  //     '',
+  //   )
   return (
     <div className="search">
       <div className="container fill_height1">
@@ -26,7 +26,7 @@ const SearchPanelRooms = () => {
                     name="checkin"
                     type="date"
                     className="check_in search_input"
-                    placeholder={checkInDate}
+                    placeholder="YYYY-MM-DD"
                   />
                 </div>
                 <div className="search_item">
