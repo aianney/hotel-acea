@@ -2,7 +2,7 @@ import React from 'react'
 import './rooms.styles.css'
 import SearchResult from '../roomsearch/roomsearch.component'
 
-function SearchPage() {
+const SearchPage = () => {
   return (
     <div className="searchPage">
       <div className="searchPage__info">{/* <h1>Stay Period</h1> */}</div>

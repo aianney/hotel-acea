@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1400px) {
+/* @media only screen and (min-width: 1400px) {
   .container,
   .container-lg,
   .container-md,
@@ -8,7 +8,7 @@
     max-width: 1360px;
     margin-left: 70px;
   }
-}
+} */
 
 .steppers {
   padding: 5rem 0;
@@ -20,7 +20,7 @@
   margin-bottom: -85px;
 }
 .steppers-center {
-  width: 93vw;
+  width: 94%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));

@@ -1,17 +1,21 @@
 import React from 'react'
-import './event.styles.css'
+import { Link } from 'react-router-dom'
 
-function Event({ src, title, description, price }) {
+function CardItem(props) {
   return (
-    <div className="event">
-      <img src={src} alt="" />
-      <div className="event__info">
-        <h2>{title}</h2>
-        <h4>{description}</h4>
-        <h3>{price}</h3>
-      </div>
-    </div>
+    <>
+      <li className="cards__item">
+        <Link className="cards__item__link">
+          <figure className="cards__item__pic-wrap" data-category={props.label}>
+            <img className="cards__item__img" alt="RoomCards" src={props.src} />
+          </figure>
+          <div className="cards__item__info">
+            <h5 className="cards__item__text">{props.text}</h5>
+          </div>
+        </Link>
+      </li>
+    </>
   )
 }
 
-export default Event
+export default CardItem

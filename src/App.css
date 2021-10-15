@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
   padding: 0 !important;
   margin: 0 auto !important;
@@ -6,38 +6,21 @@ body {
   @media screen and (max-width: 800px) {
     padding: 0;
   }
-}
+} */
+
+/* body,
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+} */
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
   color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .root {
-    scroll-behavior: auto;
-  }
-}
-
-/* @media only screen and (max-width: 1520px) {
-  .steppers-center {
-    width: 90vw;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-    grid-row-gap: 2rem;
-    grid-column-gap: 50px;
-    margin-top: -50px;
-    margin-left: 65px;
-  }
-}
-
-@media only screen and (max-width: 1270px) {
-  .steppers-center {
-    width: 93vw;
-  }
-} */

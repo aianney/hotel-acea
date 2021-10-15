@@ -1,34 +1,55 @@
 import React from 'react'
 import './events.styles.css'
-import Event from '../events-card/event.components'
+import CardItem from '../events-card/event.components'
 import Title from '../../title/title.component'
-
-// ES7 snippets to do 'rfce'
 
 function EventCards() {
   return (
-    <div className="home-events">
-      <Title title="Hotel Events" />
-      <div className="event__section">
-        <Event
-          src="https://i.ibb.co/QY5KxdG/events.jpg"
-          title="Quality of Hotel Acea"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          //   price="₱12,000 / night"
-        />
-        <Event
-          src="https://i.ibb.co/fH70Ljp/events1.jpg"
-          title="Welcome every time for relax"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nulla eu convallis tortor. Suspendisse potenti. In faucibus massaarcu, vitae cursus mi hendrerit nec"
-          //   price="₱11,500/night"
-        />
-        <Event
-          src="https://i.ibb.co/7zwX42Q/Group-of-friends-having-a-summer-dinner-party-on-the-patio.jpg"
-          title="Change your view & relax Holidays"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-          //   price="₱10,500 / night"
-        />
+    <div className="cards">
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <Title title="Hotel Events" />
+          <ul className="cards__items">
+            <CardItem
+              src="https://i.ibb.co/RcFsH55/events1.jpg"
+              text="Quality in Acea Hotel Subic Resort"
+              label="Adventure"
+              // path="/services"
+            />
+            <CardItem
+              src="https://i.ibb.co/bNRbj9S/Fresh-watermelon-juice-with-a-straw-in-two-glasses-against-a-bright-tropical-landscape-against-the-b.jpg"
+              text="Welcome every time for relax"
+              label="Relax"
+              // path="/services"
+            />
+            <CardItem
+              src="https://i.ibb.co/Tv6N5cy/Tanning-Beds-Beside-Swimming-Pool-in-Tropical-Resort-in-Maldives.jpg"
+              text="Change your view and relax Holidays"
+              label="Unwind"
+              // path="/services"
+            />
+          </ul>
+          {/* <ul className="cards__items">
+            <CardItem
+              src="images/img-3.jpg"
+              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+              label="Mystery"
+              // path="/services"
+            />
+            <CardItem
+              src="images/img-4.jpg"
+              text="Experience Football on Top of the Himilayan Mountains"
+              label="Adventure"
+              // path="/products"
+            />
+            <CardItem
+              src="images/img-8.jpg"
+              text="Ride through the Sahara Desert on a guided camel tour"
+              label="Adrenaline"
+              // path="/sign-up"
+            />
+          </ul> */}
+        </div>
       </div>
     </div>
   )
