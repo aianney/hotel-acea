@@ -75,9 +75,9 @@ const SearchPanel = () => {
                     className="dropdown_item_select search_input"
                     onChange={handleGuestCountConfirm}
                   >
-                    <option>0</option>
                     <option>01</option>
                     <option>02</option>
+                    <option>03</option>
                   </select>
                 </div>
                 <div className="search_item">
@@ -88,9 +88,9 @@ const SearchPanel = () => {
                     className="dropdown_item_select search_input"
                     onChange={handleGuestCountConfirm}
                   >
-                    <option>0</option>
                     <option>01</option>
                     <option>02</option>
+                    <option>03</option>
                   </select>
                 </div>
                 <button type="submit" className="button search_button">

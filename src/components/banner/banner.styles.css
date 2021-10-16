@@ -75,7 +75,7 @@
   .banner p {
     font-size: 15px;
     color: aliceblue;
-    margin: 15px;
+    /* margin: 15px; */
   }
   .banner div {
     width: 5rem;
