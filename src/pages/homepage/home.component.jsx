@@ -7,7 +7,7 @@ import Stepper from '../../components/stepper/steper.component'
 import Services from '../../components/best-services/services.component'
 import EventCards from '../../components/hotel-events/events/events.component'
 import RoomCard from '../../components/room-cards/roomcard/room-card.component'
-import SearchPanelRooms from '../../components/searchpanel/searchpanelroomspage.component'
+import SearchPanel from '../../components/searchpanel/searchpanel.component'
 
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
           </Link>
         </Banner>
       </Hero>
-      <SearchPanelRooms />
+      <SearchPanel />
       <Stepper />
       <RoomCard />
       <Services />

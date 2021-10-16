@@ -1,36 +1,7 @@
 import React from 'react'
-import { useHistory } from 'react-router'
 import './searchpanel.styles.css'
 
 const SearchPanel = () => {
-  const history = useHistory()
-  const [checkInDate, setCheckInDate] = React.useState(null)
-  const [checkOutDate, setCheckOutDate] = React.useState(null)
-
-  const [adultCount, setAdultCount] = React.useState(1)
-  const [childCount, setChildCount] = React.useState(1)
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    history.push(
-      `/rooms/${checkInDate}/${checkOutDate}/${adultCount}/${childCount}`,
-    )
-  }
-
-  const handleChange = (event) => {
-    const { name, value } = event.target
-
-    if (name === 'checkin') return setCheckInDate(value)
-
-    return setCheckOutDate(value)
-  }
-
-  const handleGuestCountConfirm = (subject, value) => {
-    if (subject === 'adult') return setAdultCount(value)
-
-    setChildCount(value)
-  }
-
   return (
     <div className="search">
       <div className="container fill_height1">
@@ -42,7 +13,6 @@ const SearchPanel = () => {
 
             <div className="search_panel active">
               <form
-                onSubmit={handleSubmit}
                 action="#"
                 id="search_form_1"
                 className="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start"
@@ -54,7 +24,6 @@ const SearchPanel = () => {
                     type="date"
                     className="check_in search_input"
                     placeholder="YYYY-MM-DD"
-                    onChange={handleChange}
                   />
                 </div>
                 <div className="search_item">
@@ -64,7 +33,6 @@ const SearchPanel = () => {
                     type="date"
                     className="check_out search_input"
                     placeholder="YYYY-MM-DD"
-                    handleChange={setCheckOutDate}
                   />
                 </div>
                 <div className="search_item">
@@ -73,11 +41,10 @@ const SearchPanel = () => {
                     name="adults"
                     id="adults_1"
                     className="dropdown_item_select search_input"
-                    onChange={handleGuestCountConfirm}
                   >
+                    <option>0</option>
                     <option>01</option>
                     <option>02</option>
-                    <option>03</option>
                   </select>
                 </div>
                 <div className="search_item">
@@ -86,14 +53,13 @@ const SearchPanel = () => {
                     name="children"
                     id="children_1"
                     className="dropdown_item_select search_input"
-                    onChange={handleGuestCountConfirm}
                   >
+                    <option>0</option>
                     <option>01</option>
                     <option>02</option>
-                    <option>03</option>
                   </select>
                 </div>
-                <button type="submit" className="button search_button">
+                <button className="button search_button">
                   search<span></span>
                   <span></span>
                   <span></span>
