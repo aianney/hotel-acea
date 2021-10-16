@@ -8,7 +8,9 @@ function EventCards() {
     <div className="cards">
       <div className="cards__container">
         <div className="cards__wrapper">
-          <Title title="Hotel Events" />
+          <div className="events_section-title">
+            <Title title="Hotel Events" />
+          </div>
           <ul className="cards__items">
             <CardItem
               src="https://i.ibb.co/RcFsH55/events1.jpg"

@@ -1,4 +1,4 @@
-.event {
+/* .event {
   margin: 10px;
   border-radius: 10px;
   overflow: hidden;
@@ -37,13 +37,13 @@
   font-weight: 300;
   margin-top: 8px;
   margin-bottom: 8px;
-}
+} */
 
-@media only screen and (max-width: 575px) {
+/* @media only screen and (max-width: 575px) {
   .event {
     margin-bottom: 30px;
   }
   .event > img {
     height: 250px;
   }
-}
+} */

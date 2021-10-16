@@ -10,6 +10,13 @@ const SearchPanel = () => {
   const [adultCount, setAdultCount] = React.useState(1)
   const [childCount, setChildCount] = React.useState(1)
 
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    history.push(
+      `/rooms/${checkInDate}/${checkOutDate}/${adultCount}/${childCount}`,
+    )
+  }
+
   const handleChange = (event) => {
     const { name, value } = event.target
 
@@ -24,12 +31,6 @@ const SearchPanel = () => {
     setChildCount(value)
   }
 
-  const handleSearchPress = () => {
-    history.push(
-      `/rooms/${checkInDate}/${checkOutDate}/${adultCount}/${childCount}`,
-    )
-  }
-
   return (
     <div className="search">
       <div className="container fill_height1">
@@ -41,6 +42,7 @@ const SearchPanel = () => {
 
             <div className="search_panel active">
               <form
+                onSubmit={handleSubmit}
                 action="#"
                 id="search_form_1"
                 className="search_panel_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-between justify-content-start"
@@ -91,10 +93,7 @@ const SearchPanel = () => {
                     <option>02</option>
                   </select>
                 </div>
-                <button
-                  onClick={handleSearchPress}
-                  className="button search_button"
-                >
+                <button type="submit" className="button search_button">
                   search<span></span>
                   <span></span>
                   <span></span>

@@ -35,20 +35,22 @@ export default class Services extends Component {
   }
   render() {
     return (
-      <section className="services">
-        <Title title="Best Services" />
-        <div className="services-center">
-          {this.state.services.map((item) => {
-            return (
-              <article key={`item-${item.title}`} className="service">
-                <span>{item.icon}</span>
-                <h6>{item.title}</h6>
-                <p>{item.info}</p>
-              </article>
-            )
-          })}
-        </div>
-      </section>
+      <>
+        <section className="services">
+          <Title title="Best Services" />
+          <div className="services-center">
+            {this.state.services.map((item) => {
+              return (
+                <article key={`item-${item.title}`} className="service">
+                  <span>{item.icon}</span>
+                  <h6>{item.title}</h6>
+                  <p>{item.info}</p>
+                </article>
+              )
+            })}
+          </div>
+        </section>
+      </>
     )
   }
 }

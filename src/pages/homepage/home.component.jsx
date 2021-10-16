@@ -3,12 +3,11 @@ import Hero from '../../components/hero/hero.component'
 import Banner from '../../components/banner/banner.component'
 import { Link } from 'react-router-dom'
 import './homepage.styles.css'
-// import SearchPanel from '../../components/searchpanel/searchpanel.component'
 import Stepper from '../../components/stepper/steper.component'
 import Services from '../../components/best-services/services.component'
 import EventCards from '../../components/hotel-events/events/events.component'
 import RoomCard from '../../components/room-cards/roomcard/room-card.component'
-import SearchPanelRooms from '../../components/rooms/searchpanelroomspage/searchpanelroomspage.component'
+import SearchPanelRooms from '../../components/searchpanel/searchpanelroomspage.component'
 
 const Home = () => {
   return (

@@ -2,9 +2,9 @@ import React from 'react'
 import './searchpanelroomspage.styles.css'
 
 const SearchPanelRooms = () => {
-  //   const { checkInDate, checkOutDate, adultCount, childCount } = React.useState(
-  //     '',
-  //   )
+  const { checkInDate, checkOutDate, adultCount, childCount } = React.useState(
+    '',
+  )
   return (
     <div className="search">
       <div className="container fill_height1">
@@ -26,7 +26,7 @@ const SearchPanelRooms = () => {
                     name="checkin"
                     type="date"
                     className="check_in search_input"
-                    placeholder="YYYY-MM-DD"
+                    placeholder={checkInDate}
                   />
                 </div>
                 <div className="search_item">
@@ -35,7 +35,7 @@ const SearchPanelRooms = () => {
                     name="checkout"
                     type="date"
                     className="check_out search_input"
-                    placeholder="YYYY-MM-DD"
+                    placeholder={checkOutDate}
                   />
                 </div>
                 <div className="search_item">
@@ -45,7 +45,7 @@ const SearchPanelRooms = () => {
                     id="adults_1"
                     className="dropdown_item_select search_input"
                   >
-                    <option>0</option>
+                    <option>{adultCount}</option>
                     <option>01</option>
                     <option>02</option>
                   </select>
@@ -57,7 +57,7 @@ const SearchPanelRooms = () => {
                     id="children_1"
                     className="dropdown_item_select search_input"
                   >
-                    <option>0</option>
+                    <option>{childCount}</option>
                     <option>01</option>
                     <option>02</option>
                   </select>
