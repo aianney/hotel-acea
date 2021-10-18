@@ -1,6 +1,6 @@
 import React from 'react'
 import Rooms from '../../components/rooms/roomsList/rooms.component'
-import Stepper from '../../components/stepper/steper.component'
+import Stepper from '../../components/stepper/stepper.component'
 import './roomslistpage.styles.css'
 
 const RoomsPage = ({ match }) => {

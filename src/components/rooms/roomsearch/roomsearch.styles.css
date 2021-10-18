@@ -74,6 +74,9 @@
 .searchResult__stars {
   display: flex;
   align-items: center;
+  margin-left: 8px;
+  font-size: 25px;
+  margin-bottom: 1px;
 }
 
 .searchResults__price > p {
@@ -99,7 +102,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   .searchResult__stars {
     display: flex;
     align-items: center;
@@ -113,7 +116,7 @@
   .searchResults__price {
     bottom: 20px;
   }
-}
+} */
 
 @media only screen and (max-width: 575px) {
   .searchResult {
