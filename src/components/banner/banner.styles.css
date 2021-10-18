@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   display: block;
-  height: 550px;
+  height: 575px;
   width: 100% !important;
   /* margin-top: -34px; */
   color: aliceblue;
@@ -84,10 +84,27 @@
 }
 
 @media only screen and (max-width: 420px) {
-}
-
-@media only screen and (max-width: 375px) {
   .banner {
-    height: 400px;
+    height: 355px;
+  }
+  .banner h1 {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .defaultHero {
+    min-height: calc(61vh - 56px);
+    background: url(https://i.ibb.co/hMqrmZT/background.jpg) center/cover
+      no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+  }
+  .banner {
+    height: 355px;
+  }
+  .banner h1 {
+    margin-top: 65px;
   }
 }

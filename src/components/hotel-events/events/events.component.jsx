@@ -2,6 +2,7 @@ import React from 'react'
 import './events.styles.css'
 import CardItem from '../events-card/event.components'
 import Title from '../../title/title.component'
+// import { Link } from 'react-router-dom'
 
 function EventCards() {
   return (

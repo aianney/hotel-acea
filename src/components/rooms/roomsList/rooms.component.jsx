@@ -5,7 +5,7 @@ import SearchResult from '../roomsearch/roomsearch.component'
 const SearchPage = () => {
   return (
     <div className="searchPage">
-      <div className="searchPage__info">{/* <h1>Stay Period</h1> */}</div>
+      <div className="searchPage__info"></div>
       <SearchResult
         img="https://hotelreservations.ph/testacea/images/rooms/DSVBAR.jpg"
         title="Deluxe Sea View"

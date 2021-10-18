@@ -18,7 +18,11 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/rooms" component={RoomsPage} />
+        <Route
+          exact
+          path="/rooms/:checkInDate/:checkOutDate/:adultCount/:childCount"
+          component={RoomsPage}
+        />
       </Switch>
       <Footer />
     </>

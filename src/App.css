@@ -24,3 +24,10 @@ a {
   text-decoration: none;
   color: black;
 }
+
+/* removing white space/swinging from left to right in mobile*/
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
