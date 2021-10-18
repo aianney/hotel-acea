@@ -25,6 +25,7 @@
 
 .cards__items {
   margin-bottom: 24px;
+  display: flex;
 }
 
 .cards__item {
@@ -127,13 +128,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  .cards__items {
-    display: flex;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
   }
@@ -147,7 +142,10 @@
   .cards__container {
     margin-left: -17px;
   }
-}
+  .cards__items {
+    display: flex;
+  }
+} */
 
 @media only screen and (max-width: 414px) {
   .cards__items {
