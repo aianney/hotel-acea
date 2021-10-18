@@ -235,6 +235,9 @@
     text-transform: uppercase;
     margin-bottom: 14px;
   }
+  .searchResult__infoTop > h2 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -266,5 +269,12 @@
     color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 14px;
+  }
+  .search_input {
+    margin-left: 20px;
+  }
+
+  .searchResult__infoTop > h2 {
+    display: none;
   }
 }

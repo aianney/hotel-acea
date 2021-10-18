@@ -38,10 +38,16 @@
   color: #f9c82e;
 }
 
-.searchResult__infoTop > h3 {
+.searchResult__infoTop > h2 {
   font-weight: 300;
   margin-top: 10px;
   font-size: 20px;
+}
+.searchResult__infoTop > h3 {
+  margin-top: 17px;
+  font-size: 20px;
+  color: gray;
+  font-weight: 900;
 }
 
 .searchResult__infoTop > p {

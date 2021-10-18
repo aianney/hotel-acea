@@ -21,8 +21,8 @@ function SearchResult({
         <div className="searchResult__infoTop">
           <h1>{title}</h1>
           <p>____</p>
-          <h3>{location}</h3>
-          <p>{description}</p>
+          <h2>{location}</h2>
+          <h3>{description}</h3>
         </div>
 
         <div className="searchResult__infoBottom">
