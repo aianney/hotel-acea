@@ -101,3 +101,10 @@
     margin-top: 7px;
   }
 }
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .options {
+    width: 70%;
+    margin-right: 5px;
+  }
+}

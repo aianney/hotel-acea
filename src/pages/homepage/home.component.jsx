@@ -17,8 +17,8 @@ const Home = () => {
           title="Welcome to Acea Beach Resort"
           subtitle="San Bernardino Road, Subic Bay Freeport Zone"
         >
-          <Link to="/rooms" className="btn-primary">
-            our rooms
+          <Link to="/contact" className="btn-primary">
+            contact us
           </Link>
           <Link to="/register" className="btn-primary-register">
             register

@@ -7,8 +7,8 @@ const SearchPanelHome = () => {
   const [checkInDate, setCheckInDate] = React.useState('')
   const [checkOutDate, setCheckOutDate] = React.useState('')
 
-  const [adultCount, setAdultCount] = React.useState(1)
-  const [childCount, setChildCount] = React.useState(1)
+  const [adultCount, setAdultCount] = React.useState('')
+  const [childCount, setChildCount] = React.useState('')
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -23,12 +23,6 @@ const SearchPanelHome = () => {
     if (name === 'checkin') return setCheckInDate(value)
 
     return setCheckOutDate(value)
-  }
-
-  const handleGuestCountConfirm = (subject, value) => {
-    if (subject === 'adult') return setAdultCount(value)
-
-    setChildCount(value)
   }
 
   return (
@@ -73,24 +67,34 @@ const SearchPanelHome = () => {
                     name="adults"
                     id="adults_1"
                     className="dropdown_item_select search_input"
-                    onChange={handleGuestCountConfirm}
+                    value={adultCount}
+                    onChange={(e) => setAdultCount(e.target.value)}
                   >
                     <option>0</option>
                     <option>01</option>
                     <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
                   </select>
                 </div>
                 <div className="search_item">
                   <div>children</div>
                   <select
+                    type="number"
                     name="children"
                     id="children_1"
                     className="dropdown_item_select search_input"
-                    onChange={handleGuestCountConfirm}
+                    value={childCount}
+                    onChange={(e) => setChildCount(e.target.value)}
+                    min={1}
                   >
                     <option>0</option>
                     <option>01</option>
                     <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
                   </select>
                 </div>
                 <button className="button search_button">

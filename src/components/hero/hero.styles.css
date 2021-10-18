@@ -49,3 +49,19 @@
     height: 0px;
   }
 }
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .defaultHero {
+    min-height: calc(56vh - 56px);
+    background: url(https://i.ibb.co/hMqrmZT/background.jpg) center/cover
+      no-repeat;
+  }
+}
+
+@media only screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .defaultHero {
+    min-height: calc(71vh - 56px);
+    background: url(https://i.ibb.co/hMqrmZT/background.jpg) center/cover
+      no-repeat;
+  }
+}
