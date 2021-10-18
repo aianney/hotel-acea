@@ -14,21 +14,17 @@ function Register() {
   // handleChange = (value) => {
   //     console.log("Captcha value:", value);
   //   }
+  // const [values, setValues] = React.useState({
+  //   firstName: '',
+  //   lastname: '',
+  //   email: '',
+  // })
 
   return (
     <div className="register">
       <Typography gutterBottom variant="h3" align="center"></Typography>
       <Grid>
-        <Card
-          //   className="register-form"
-          //   style={{
-          //     maxWidth: 1235,
-          //     padding: '20px 5px',
-          //     margin: '0 auto',
-          //     marginBottom: '100',
-          //   }}
-          style={{ width: 'calc(97% + 8px)', paddingLeft: '25' }}
-        >
+        <Card style={{ width: 'calc(97% + 8px)', paddingLeft: '25' }}>
           <CardContent>
             <Typography gutterBottom variant="h5">
               Register
@@ -64,8 +60,9 @@ function Register() {
                 </Grid>
                 <Grid xs={12} sm={6} item>
                   <TextField
-                    placeholder="Birthday"
-                    label="Birthday"
+                    type="number"
+                    placeholder="Enter phone number"
+                    label="Phone"
                     variant="outlined"
                     fullWidth
                     required
@@ -91,10 +88,11 @@ function Register() {
                   />
                 </Grid>
                 <Grid item xs={12}>
+                  <div className="birthday">Birthday</div>
                   <TextField
-                    type="number"
-                    placeholder="Enter phone number"
-                    label="Phone"
+                    type="date"
+                    // placeholder="Birthday"
+                    // label="Birthday"
                     variant="outlined"
                     fullWidth
                     required

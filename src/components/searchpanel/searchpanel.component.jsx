@@ -7,8 +7,8 @@ const SearchPanelHome = () => {
   const [checkInDate, setCheckInDate] = React.useState('')
   const [checkOutDate, setCheckOutDate] = React.useState('')
 
-  const [adultCount, setAdultCount] = React.useState('')
-  const [childCount, setChildCount] = React.useState('')
+  const [adultCount, setAdultCount] = React.useState(0)
+  const [childCount, setChildCount] = React.useState(0)
 
   const handleSubmit = (e) => {
     e.preventDefault()
