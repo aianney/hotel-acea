@@ -90,6 +90,13 @@
   .searchResult__infoBottom {
     margin-left: 817px;
   }
+  .searchResult__stars {
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  .searchResult__infoTop > h3 {
+    margin-bottom: 16px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {

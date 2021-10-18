@@ -91,7 +91,7 @@
 }
 @media only screen and (min-width: 1520px) {
   .container {
-    min-width: 1365px;
+    min-width: 1382px;
   }
 }
 
@@ -99,6 +99,9 @@
   .container {
     max-width: 1155px;
     margin-left: 105px;
+  }
+  .search {
+    margin-left: -1px;
   }
 }
 
