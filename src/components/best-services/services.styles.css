@@ -35,6 +35,13 @@
   width: 80%;
   margin: 0 auto;
 }
+@media screen and (min-width: 1024px) {
+  .services-center {
+    width: 95vw;
+    max-width: 1170px;
+    display: flex;
+  }
+}
 @media screen and (min-width: 992px) {
   .services-center {
     width: 95vw;

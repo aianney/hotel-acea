@@ -92,6 +92,22 @@
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .searchResult__stars {
+    display: flex;
+    align-items: center;
+    margin-left: -170px;
+    font-size: 17px;
+    margin-bottom: 24px;
+  }
+  .searchResult__infoTop > p {
+    margin-top: 6px;
+  }
+  .searchResults__price {
+    bottom: 20px;
+  }
+}
+
 @media only screen and (max-width: 575px) {
   .searchResult {
     display: block;

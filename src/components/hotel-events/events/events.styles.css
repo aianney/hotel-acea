@@ -137,6 +137,16 @@
   .cards__item {
     margin-bottom: 2rem;
   }
+  .cards__item {
+    display: flex;
+    flex: 1 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+    width: 295px;
+  }
+  .cards__container {
+    margin-left: -17px;
+  }
 }
 
 @media only screen and (max-width: 414px) {

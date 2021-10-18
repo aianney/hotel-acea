@@ -102,6 +102,19 @@
   }
 }
 
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 919px;
+    margin-right: 14px;
+  }
+  .steppers {
+    background: var(--darkGrey);
+    text-align: center;
+    margin-bottom: -85px;
+    margin-left: -9px;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .search {
     height: auto;
