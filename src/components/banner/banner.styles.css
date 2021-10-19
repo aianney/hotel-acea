@@ -109,7 +109,7 @@
   }
 }
 
-@media screen and (device-width: 375px) and (device-height: 812px) {
+@media screen and (device-width: 375px) and (device-height: 667px) {
   .banner {
     height: 400px;
   }
