@@ -170,15 +170,15 @@
 
   .cards__items {
     margin-bottom: 24px;
-    margin-left: 35px;
+    margin-left: 60px;
     display: block;
   }
 }
 
-@media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 3) {
+/* @media screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 3) {
   .cards__items {
     margin-bottom: 34px;
-    margin-left: 35px;
+    margin-left: 60px;
     display: block;
   }
-}
+} */
