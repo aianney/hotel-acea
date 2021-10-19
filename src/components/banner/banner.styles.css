@@ -111,7 +111,7 @@
 
 @media screen and (device-width: 375px) and (device-height: 667px) {
   .banner {
-    height: 575px;
+    height: 500px;
   }
   .banner h1 {
     margin-top: 150px;
