@@ -4,7 +4,6 @@
   margin-top: 0;
   align-items: center;
   justify-content: center;
-  /* margin-left: 35px; */
 }
 
 .search_panel_content {
@@ -129,7 +128,7 @@
     padding-right: 15px;
     font-size: 13px;
     font-weight: 600;
-    color: #929191;
+    color: #f9c82e;
   }
   .search_item:first-child {
     width: 85%;
@@ -282,6 +281,7 @@
   }
   .search_input {
     margin-left: 20px;
+    color: #f9c82e;
   }
 
   .searchResult__infoTop > h2 {
