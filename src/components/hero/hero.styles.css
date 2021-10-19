@@ -50,9 +50,9 @@
   }
 }
 
-@media screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media screen and (device-width: 375px) and (device-height: 667px) {
   .defaultHero {
-    min-height: calc(56vh - 56px);
+    min-height: calc(100vh - 95px);
     background: url(https://i.ibb.co/hMqrmZT/background.jpg) center/cover
       no-repeat;
   }
