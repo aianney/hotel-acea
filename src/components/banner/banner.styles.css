@@ -91,6 +91,15 @@
     margin-top: 65px;
   }
 }
+@media screen and (max-width: 414px) {
+  .banner {
+    height: 355px;
+  }
+  banner h1 {
+    margin-top: 45px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .banner {
     height: 400px;
