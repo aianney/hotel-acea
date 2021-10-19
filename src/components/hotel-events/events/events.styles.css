@@ -151,6 +151,11 @@
   .cards__items {
     margin-bottom: 24px;
     margin-right: 30px;
+    display: block;
+  }
+  .cards__item {
+    width: 370px;
+    margin-left: 50px;
   }
 }
 
@@ -160,11 +165,20 @@
   }
   .cards__item {
     width: 340px;
-    margin-left: 10px;
+    margin: 2em;
   }
 
   .cards__items {
     margin-bottom: 24px;
-    margin-left: 6px;
+    margin-left: 35px;
+    display: block;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 3) {
+  .cards__items {
+    margin-bottom: 34px;
+    margin-left: 35px;
+    display: block;
   }
 }
