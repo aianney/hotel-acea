@@ -20,7 +20,7 @@
   margin: 5px;
 }
 
-@media only screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .searchPage__info {
     padding: 0;
     margin-block: auto;

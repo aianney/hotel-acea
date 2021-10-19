@@ -30,7 +30,7 @@
   margin: -4px;
 }
 
-@media only screen and (max-width: 1520px) {
+@media screen and (max-width: 1520px) {
   .div.MuiCardPaper-root.MuiCard-root.MuiPaper-elevation1.MuiPaper-rounded {
     max-width: 1455px;
     padding: 20px 5px;

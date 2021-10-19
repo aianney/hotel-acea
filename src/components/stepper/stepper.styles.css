@@ -39,7 +39,7 @@
   padding: 20px;
 }
 
-@media only screen and (max-width: 1520px) {
+@media screen and (max-width: 1520px) {
   .steppers-center {
     width: 94%;
   }
@@ -48,7 +48,7 @@
   }
 }
 
-@media only screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .steppers p {
     display: none;
   }
@@ -78,7 +78,7 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .steppers {
     margin-left: -15px;
   }

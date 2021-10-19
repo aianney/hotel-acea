@@ -9,13 +9,13 @@
   min-height: 550px;
 }
 
-@media only screen and (max-width: 1520px) {
+@media screen and (max-width: 1520px) {
   .defaultHero {
     height: 575px;
   }
 }
 
-@media only screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .defaultHero {
     min-height: calc(70vh - 70px);
     background: url(https://i.ibb.co/hMqrmZT/background.jpg) center/cover
@@ -26,7 +26,7 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
   .defaultHero {
     min-height: calc(56vh - 56px);
     background: url(https://i.ibb.co/hMqrmZT/background.jpg) center/cover
@@ -38,7 +38,7 @@
   }
 }
 
-@media only screen and (device-width: 375px) {
+@media screen and (device-width: 375px) {
   .defaultHero {
     min-height: calc(68vh - 56px);
     background: url(https://i.ibb.co/hMqrmZT/background.jpg) center/cover
@@ -50,7 +50,7 @@
   }
 }
 
-@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+@media screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .defaultHero {
     min-height: calc(56vh - 56px);
     background: url(https://i.ibb.co/hMqrmZT/background.jpg) center/cover
@@ -58,7 +58,7 @@
   }
 }
 
-@media only screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   .defaultHero {
     min-height: calc(71vh - 56px);
     background: url(https://i.ibb.co/hMqrmZT/background.jpg) center/cover

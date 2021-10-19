@@ -41,7 +41,7 @@
   color: #f9c82e;
 }
 
-@media only screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .options {
     width: 68%;
     margin-right: 15px;
@@ -67,7 +67,7 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
   .options {
     width: 68%;
     margin-right: 15px;
@@ -84,7 +84,7 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .header {
     width: 100%;
   }

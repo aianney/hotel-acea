@@ -81,7 +81,7 @@
 }
 
 /* media queries */
-@media only screen and (max-width: 1920px) {
+@media screen and (max-width: 1920px) {
   .search {
     position: relative;
     width: 100%;
@@ -89,13 +89,13 @@
     z-index: 10;
   }
 }
-@media only screen and (min-width: 1520px) {
+@media screen and (min-width: 1520px) {
   .container {
     min-width: 1382px;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1145px;
     margin-left: 105px;

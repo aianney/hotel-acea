@@ -37,7 +37,7 @@
   color: white;
 }
 
-@media only screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .btn-primary {
     padding: 12px 15px;
     font-size: 15px;

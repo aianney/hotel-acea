@@ -51,7 +51,7 @@
   margin-bottom: 8px;
 }
 
-@media only screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .home-roomcard {
     margin-left: -10px;
     margin-top: 300px;
@@ -62,7 +62,7 @@
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media screen and (max-width: 414px) {
   .home-roomcard {
     margin-top: 50px;
   }
@@ -78,7 +78,7 @@
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .home-roomcard {
     margin-left: -10px;
     margin-top: 40px;
