@@ -26,6 +26,7 @@
 .cards__items {
   margin-bottom: 24px;
   display: flex;
+  margin-left: 40px;
 }
 
 .cards__item {

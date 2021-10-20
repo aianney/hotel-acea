@@ -9,15 +9,19 @@ const TopHeader = () => {
     <div className="top_bar">
       <div className="top_bar__icons">
         <div className="phone">
-          <LanguageIcon style={{ marginRight: 20, marginBottom: 3 }} />
-          <AiFillPhone size={30} color={'white'} style={{ marginBottom: 5 }} />
+          <LanguageIcon style={{ marginRight: 20, marginBottom: -7 }} />
+          <AiFillPhone
+            size={30}
+            color={'white'}
+            style={{ marginBottom: -10 }}
+          />
           +45 345 3324 56789
         </div>
         <div className="email">
           <HiOutlineMail
             size={30}
             color={'white'}
-            style={{ marginBottom: 5 }}
+            style={{ marginBottom: -10 }}
           />
           reservations@acea.ph
         </div>
